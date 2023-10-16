@@ -25,13 +25,13 @@ git clone https://github.com/mxsaad/discord-bot.git
 cd discord-bot
 ```
 
-Build the Docker image for the bot.
+3. Build the Docker image for the bot.
 
 ```bash
 docker build -t your-bot-image .
 ```
 
-Run the Docker container with the bot.
+4. Run the Docker container with the bot.
 
 ```bash
 docker run -d your-bot-image
